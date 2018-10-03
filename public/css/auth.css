@@ -1,0 +1,101 @@
+#login_background {
+    background: #efefef !important;
+
+}
+
+.card-coloured {
+    min-height: 500px;
+    border: none !important;
+    font-family: "Roboto Thin";
+    margin-left: -5%;
+    word-break: break-all;
+    text-align: center !important;
+    border-radius: 25px !important;
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+    -webkit-box-shadow: inset 10px 0px 31px 0px rgba(0,0,0,0.09);
+    -moz-box-shadow: inset 10px 0px 31px 0px rgba(0,0,0,0.09);
+    box-shadow: inset 10px 0px 31px 0px rgba(0,0,0,0.09);
+
+}
+
+.card-coloured-green {
+    color: white;
+    min-height: 500px;
+    margin-right: -4%;
+    border: none !important;
+    font-family: "Roboto Thin";
+    font-size: 100px !important;
+    text-align: center !important;
+    border-radius: 25px !important;
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+    -webkit-box-shadow: -5px 0px 10px 0px rgba(0,0,0,0.07);
+    -moz-box-shadow: -5px 0px 10px 0px rgba(0,0,0,0.07);
+    box-shadow: -5px 0px 10px 0px rgba(0,0,0,0.07);
+    background: #1D976C;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #80EAAC, #37AD7D);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #80EAAC, #37AD7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    z-index: 1;
+}
+
+.bubbles-green-beneath_card {
+    z-index: -1;
+    width: 330px;
+    height: 663px;
+    margin-top: -50px;
+    position: absolute;
+    margin-left: 70px;
+    background-repeat: no-repeat !important;
+    background: url("../images/bubbles_beneath_green.png") !important;
+
+}
+
+.bubbles-green-above_card {
+    background: url("../images/bubbles_above_green.png") !important;
+    width: 330px;
+    height: 663px;
+    margin-top: -1px;
+    background-repeat: no-repeat !important;
+    z-index: 2;
+    position: absolute;
+
+}
+
+.btn-login {
+    border-radius: 25px !important;
+    width: 300px;
+    height: 45px;
+    border: none !important;
+    color: #fff !important;
+    background: #1D976C;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #93F9B9, #1D976C);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #93F9B9, #1D976C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.05);
+    -moz-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.05);
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.05);
+}
+
+.card_colored_content {
+    margin-top: 15%;
+    padding: 25px !important;
+    font-family: "Roboto Thin";
+
+}
+
+.Colored_content_Title {
+}
+
+.Login_rounded_inputs {
+    border-radius: 25px !important;
+    -webkit-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.02);
+    -moz-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.02);
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.02);
+}
+
+.login_colored_card_text {
+    font-family: "Roboto Thin";
+    font-size: 36pt;
+    margin-top: 50%;
+}
+

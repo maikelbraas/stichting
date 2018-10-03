@@ -1,0 +1,125 @@
+body {
+    background-color: #ecebe7 !important;
+    text-align: inherit !important;
+    font-family: inherit !important;
+}
+
+@font-face {
+    font-family: "Simplifica";
+}
+
+header {
+    text-align: center;
+}
+
+.nav-link {
+    color: #000000 !important;
+
+}
+
+#logo {
+    margin-top: 10px;
+}
+
+.CardDimension {
+    width: 340px !important;
+}
+
+.CardDimension > img {
+    width: 340px !important;
+}
+
+.CardDimensionBlocksTop {
+    margin-bottom: 5px;
+}
+
+.card > img {
+    box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+
+}
+
+.homepageCards {
+    padding-left: 40% !important;
+    padding-top: 45% !important;
+}
+
+.BlocksDimension {
+    width: 100%;
+    padding-right: 65px !important;
+    padding-left: 65px !important;
+
+}
+
+.card-img-overlay-home {
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    top: 46% !important;
+    text-align: center !important;
+    text-shadow: 0px 0px 5px black;
+}
+
+.card-Home:hover {
+    opacity: 0.8;
+    box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);
+}
+
+.card-img-overlay-text.strategie > h5 {
+    font-family: "PARINOCK" !important;
+    font-size: 48px !important;
+}
+
+.card-img-overlay-text.doneren {
+    font-family: "PARINOCK" !important;
+    font-size: 48px !important;
+}
+
+.contactCard {
+    height: 100% !important;
+}
+
+.card-img-overlay-contact h5 {
+    font-size: 3rem !important;
+    font-family: "Roboto Thin";
+}
+
+.card-img-overlay-contact {
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    top: 45% !important;
+    text-align: center !important;
+}
+
+.image-triangle {
+    position: absolute;
+    height: 200px;
+    top: 40% !important;
+    right: -15px;
+    z-index: 1;
+}
+
+form {
+    text-align: right;
+}
+
+.arrow_top {
+    margin-top: -20px;
+}
+
+.arrow_bottom {
+    position: relative !important;
+    top: 20px;
+}
+
+.card-img {
+    height: 100% !important;
+}
+
+.text-postition-missie {
+    width: 50% !important;
+    text-align: center;
+}

@@ -1,0 +1,34 @@
+body {
+    background-color: #ccc !important;
+}
+
+.page-editing-publish-card  {
+}
+.page-editing-publish-card-item  {
+    list-style-type: none;
+}
+.page-editing-publish-card-item  a {
+    color: #000 !important;
+}
+
+.page-editing-publish-card-item li:hover {
+    background-color: #e2e3e5;
+}
+
+.navbar,
+.card,
+.search-container button,
+.search-container  input {
+    box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+
+}
+
+.background {
+    border-radius: 5px;
+}
+.breadcrumb-dark-gray {
+    background-color: #343a40 !important;
+}
+.breadcrumb-dark-gray a {
+    color: #fff  !important;
+}
