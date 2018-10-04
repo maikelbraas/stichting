@@ -29,13 +29,13 @@
                                 <div class="card">
                                     <div class="card-body">
                                         {{ Form::label('Titel', 'Titel:') }}
-                                        {{ Form::text('pageName', null, ["class" => 'form-control input-lg']) }}
+                                        {{ Form::text('PageName', null, ["class" => 'form-control input-lg']) }}
 
                                         {{ Form::label('slug', 'Url-Titel:', ['class' => 'form-spacing-top']) }}
                                         {{ Form::text('slug', null, ['class' => 'form-control']) }}
 
                                         {{ Form::label('Excerpt', "Beschrijving:", ['class' => 'form-spacing-top']) }}
-                                        {{ Form::textarea('excerpt', null, ['class' => 'form-control']) }}
+                                        {{ Form::textarea('Excerpt', null, ['class' => 'form-control']) }}
 
                                         {{ Form::label('body', "Pagina-Content:", ['class' => 'form-spacing-top']) }}
                                         {{ Form::textarea('body', null, ['class' => 'form-control']) }}

@@ -20,7 +20,7 @@
                 <div class="col-md-4 CardDimensionBlocksTop">
                     <a href="{{url('/pagina/Visie')}}">
                         <div class="card CardDimension text-white">
-                            <img src=" {{ asset('../images/visie.png') }}"/>
+                            <img src=" {{ asset('../images/Visie.png') }}"/>
                             <div class="card-img-overlay-home">
                                 <h5 class="card-title">Visie</h5>
                             </div>
